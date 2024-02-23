@@ -26,6 +26,12 @@ const routeLinks:RounterLink[] = pokemonRoute.children?.map( ({name, path, props
         <!-- <h4>Pokemon Layout</h4> -->
     
 
-    <RouterView />
+    <!-- <Suspense> -->
+        <RouterView />
+
+        <!-- <template #fallback>
+            Loading...
+        </template>
+    </Suspense> -->
 </div>
 </template>
